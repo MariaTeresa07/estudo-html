@@ -1,0 +1,45 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Verela Round', monospace;
+}
+body{
+    background-color: #cc8899;
+}
+.divMid{
+    width: 820px;
+    height: fit-content;
+    background-color: #efdae0;
+    padding: 15px 30px;
+    position: absolute;
+    overflow-wrap: break-word;
+    translate: (-50%, -50%);
+    left: 4%;
+}
+.I1{
+    width: 350px;
+    position: absolute;
+    overflow-wrap: break-word;
+    translate: (-50%, -50%);
+    left: 70%;
+    top: 10%;
+    border-radius: 5px;
+    box-shadow: 0 20px 15px rgba(0,0,0, 0.25);
+    border: 2px solid #efdae0;
+
+
+}
+.I2{
+    width: 350px;
+    position: absolute;
+    overflow-wrap: break-word;
+    translate: (-50%, -50%);
+    left: 70%;
+    top: 50%;
+    border-radius: 5px;
+    box-shadow: 0 20px 15px rgba(0,0,0, 0.25);
+    border: 2px solid #efdae0;
+}
