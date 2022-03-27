@@ -12,11 +12,11 @@ function pontuacao(){
             pintoras.value,
             escritor.value,
         ][i]){
-            resultado = resultado + 2;
+            resultado = resultado + 1;
         }
     }
 
-    alert('Seus pontos: ${resultado}');
+    alert(`Você acertou ${resultado} de 5 questões!`);
 }
 
-document.forms["quiz"].addEventListener('submit', resultado());
+document.forms["quiz"].addEventListener('submit', pontuacao);
