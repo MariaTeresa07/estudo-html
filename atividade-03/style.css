@@ -19,6 +19,15 @@ body{
     left: 21%;
     text-align: center;
 }
+.perf_samuel{
+    position: inherit;
+    left:12%
+}
+.perf_domingas{
+    position: inherit;
+    top: 41%;
+    left: 69%
+}
 .painel_quiz{
     background-color: #e5e6ec;
     color: #030940;
@@ -27,7 +36,7 @@ body{
     border-radius: 8px;
     border: 1px solid #b3b5c8;
     position: absolute;
-    top:35%;
+    top:65%;
     left: 21%;
     text-align: center;
 }
@@ -54,9 +63,11 @@ img{
 .opcao label:hover{
     background-color: #686c91;
 }
+.opcao input[type="radio"]:checked + label{
+    background-color: #686c91;
+}
 button{
     font-size: 25px;
     padding: 8px 8px;
     border-radius: 8px;
 }
-
